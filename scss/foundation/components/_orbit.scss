@@ -190,15 +190,15 @@ $stack-on-small-margin-bottom: emCalc(20px) !default;
 }
 
 
-@media #{$small} {
+// @media #{$small} {
 
-  .touch {
-    .orbit-container {
-      .orbit-prev,
-      .orbit-next { display: inherit; }
-    }
+//   .touch {
+//     .orbit-container {
+//       .orbit-prev,
+//       .orbit-next { display: inherit; }
+//     }
 
-    .orbit-bullets { display: block; }
-  }
+//     .orbit-bullets { display: block; }
+//   }
 
-}
+// }

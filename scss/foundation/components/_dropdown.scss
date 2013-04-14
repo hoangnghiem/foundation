@@ -118,12 +118,12 @@ $f-dropdown-content-padding:      emCalc(20px) !default;
 
 @if $include-html-nav-classes {
 
-  @media only screen and (max-width: 767px) {
-    .f-dropdown {
-      max-width: 100%;
-      #{$default-float}: $dropdown-mobile-default-float;
-    }
-  }
+  // @media only screen and (max-width: 767px) {
+  //   .f-dropdown {
+  //     max-width: 100%;
+  //     #{$default-float}: $dropdown-mobile-default-float;
+  //   }
+  // }
 
   /* Foundation Dropdowns */
   .f-dropdown {

@@ -219,31 +219,31 @@ $section-bottom-margin:          emCalc(20px) !default;
     .section { @include section(tabs); }
   }
 
-  @media #{$small} {
+  // @media #{$small} {
 
-    .section-container.auto {
-      @include section-container(false, tabs);
+  //   .section-container.auto {
+  //     @include section-container(false, tabs);
 
-      section,
-      .section { @include section(tabs); }
-    }
-    .section-container.accordion .section {
-      padding-top: 0 !important;
-    }
+  //     section,
+  //     .section { @include section(tabs); }
+  //   }
+  //   .section-container.accordion .section {
+  //     padding-top: 0 !important;
+  //   }
 
-    .section-container.vertical-nav {
-      @include section-container(false);
+  //   .section-container.vertical-nav {
+  //     @include section-container(false);
 
-      section,
-      .section { @include section(vertical-nav); }
-    }
+  //     section,
+  //     .section { @include section(vertical-nav); }
+  //   }
 
-    .section-container.horizontal-nav {
-      @include section-container(false, horizontal-nav);
+  //   .section-container.horizontal-nav {
+  //     @include section-container(false, horizontal-nav);
 
-      section,
-      .section { @include section(horizontal-nav); }
-    }
-  }
+  //     section,
+  //     .section { @include section(horizontal-nav); }
+  //   }
+  // }
 
 }

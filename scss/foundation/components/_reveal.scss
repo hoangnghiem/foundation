@@ -111,18 +111,18 @@ $reveal-border-color:    #666 !default;
   }
 
   // Large Screen Styles
-  @media #{$small} {
+  // @media #{$small} {
 
-    .reveal-modal {
-      @include reveal-modal-style(false, emCalc(30px), false, $box-shadow: false, $top-offset: emCalc(100px));
+  //   .reveal-modal {
+  //     @include reveal-modal-style(false, emCalc(30px), false, $box-shadow: false, $top-offset: emCalc(100px));
 
-      &.small  { @include reveal-modal-base(false, 30%); }
-      &.medium { @include reveal-modal-base(false, 40%); }
-      &.large  { @include reveal-modal-base(false, 60%); }
-      &.xlarge { @include reveal-modal-base(false, 70%); }
-      &.expand { @include reveal-modal-base(false, 95%); }
-    }
-  }
+  //     &.small  { @include reveal-modal-base(false, 30%); }
+  //     &.medium { @include reveal-modal-base(false, 40%); }
+  //     &.large  { @include reveal-modal-base(false, 60%); }
+  //     &.xlarge { @include reveal-modal-base(false, 70%); }
+  //     &.expand { @include reveal-modal-base(false, 95%); }
+  //   }
+  // }
 
   // Reveal Print Styles
   @media print {

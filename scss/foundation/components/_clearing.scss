@@ -103,109 +103,109 @@ $clearing-carousel-thumb-active-border: 4px solid rgb(255,255,255) !default;
 
 
 // Large screen overrides
-@media #{$small} {
-  .clearing-main-prev,
-  .clearing-main-next {
-    position: absolute;
-    height: 100%;
-    width: 40px;
-    top: 0;
-    & > span {
-      position: absolute;
-      top: 50%;
-      display: block;
-      width: 0;
-      height: 0;
-      border: solid $clearing-arrow-size;
-    }
-  }
-  .clearing-main-prev {
-    #{$default-float}: 0;
-    & > span {
-      #{$default-float}: 5px;
-      border-color: transparent;
-      border-#{$opposite-direction}-color: $clearing-arrow-color;
-    }
-  }
-  .clearing-main-next {
-    #{$opposite-direction}: 0;
-    & > span {
-      border-color: transparent;
-      border-#{$default-float}-color: $clearing-arrow-color;
-    }
-  }
+// @media #{$small} {
+//   .clearing-main-prev,
+//   .clearing-main-next {
+//     position: absolute;
+//     height: 100%;
+//     width: 40px;
+//     top: 0;
+//     & > span {
+//       position: absolute;
+//       top: 50%;
+//       display: block;
+//       width: 0;
+//       height: 0;
+//       border: solid $clearing-arrow-size;
+//     }
+//   }
+//   .clearing-main-prev {
+//     #{$default-float}: 0;
+//     & > span {
+//       #{$default-float}: 5px;
+//       border-color: transparent;
+//       border-#{$opposite-direction}-color: $clearing-arrow-color;
+//     }
+//   }
+//   .clearing-main-next {
+//     #{$opposite-direction}: 0;
+//     & > span {
+//       border-color: transparent;
+//       border-#{$default-float}-color: $clearing-arrow-color;
+//     }
+//   }
 
-  .clearing-main-prev.disabled,
-  .clearing-main-next.disabled { opacity: 0.5; }
+//   .clearing-main-prev.disabled,
+//   .clearing-main-next.disabled { opacity: 0.5; }
 
-  // If you want to show a lightbox, but only have a single image come through as the thumbnail
-  .clearing-feature ~ li { display: none; }
+//   // If you want to show a lightbox, but only have a single image come through as the thumbnail
+//   .clearing-feature ~ li { display: none; }
 
-  .clearing-assembled .clearing-container {
+//   .clearing-assembled .clearing-container {
 
-    .carousel {
-      background: $clearing-carousel-bg;
-      height: $clearing-carousel-height;
-      margin-top: 5px;
+//     .carousel {
+//       background: $clearing-carousel-bg;
+//       height: $clearing-carousel-height;
+//       margin-top: 5px;
 
-      & > ul {
-        display: block;
-        z-index: 999;
-        width: 200%;
-        height: 100%;
-        margin-#{$default-float}: 0;
-        position: relative;
-        #{$default-float}: 0;
+//       & > ul {
+//         display: block;
+//         z-index: 999;
+//         width: 200%;
+//         height: 100%;
+//         margin-#{$default-float}: 0;
+//         position: relative;
+//         #{$default-float}: 0;
 
-        li {
-          display: block;
-          width: $clearing-carousel-thumb-width;
-          height: inherit;
-          padding: 0;
-          float: $default-float;
-          overflow: hidden;
-          margin-#{$opposite-direction}: 1px;
-          position: relative;
-          cursor: pointer;
-          opacity: 0.4;
+//         li {
+//           display: block;
+//           width: $clearing-carousel-thumb-width;
+//           height: inherit;
+//           padding: 0;
+//           float: $default-float;
+//           overflow: hidden;
+//           margin-#{$opposite-direction}: 1px;
+//           position: relative;
+//           cursor: pointer;
+//           opacity: 0.4;
 
-          &.fix-height {
-            img {
-              min-height: 100%;
-              height: 100%;
-              max-width: none;
-            }
-          }
+//           &.fix-height {
+//             img {
+//               min-height: 100%;
+//               height: 100%;
+//               max-width: none;
+//             }
+//           }
 
-          a.th {
-            border: none;
-            -webkit-box-shadow: none;
-                    box-shadow: none;
-            display: block;
-          }
+//           a.th {
+//             border: none;
+//             -webkit-box-shadow: none;
+//                     box-shadow: none;
+//             display: block;
+//           }
 
-          img {
-            cursor: pointer !important;
-            min-width: 100% !important;
-          }
+//           img {
+//             cursor: pointer !important;
+//             min-width: 100% !important;
+//           }
 
-          &.visible { opacity: 1; }
-        }
-      }
-    }
+//           &.visible { opacity: 1; }
+//         }
+//       }
+//     }
 
-    .visible-img {
-      background: $clearing-img-bg;
-      overflow: hidden;
-      height: $clearing-active-img-height;
-    }
-  }
+//     .visible-img {
+//       background: $clearing-img-bg;
+//       overflow: hidden;
+//       height: $clearing-active-img-height;
+//     }
+//   }
 
-  .clearing-close {
-    position: absolute;
-    top: 10px;
-    #{$opposite-direction}: 20px;
-    padding-#{$default-float}: 0;
-    padding-top: 0;
-  }
-}
+//   .clearing-close {
+//     position: absolute;
+//     top: 10px;
+//     #{$opposite-direction}: 20px;
+//     padding-#{$default-float}: 0;
+//     padding-top: 0;
+//   }
+// }

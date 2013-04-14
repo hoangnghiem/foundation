@@ -55,12 +55,12 @@ $block-grid-media-queries: true !default;
   }
 
   /* Foundation Block Grids for above small breakpoint */
-  @media #{$small} {
-    @for $i from 1 through $block-grid-elements {
-      .large-block-grid-#{($i)} {
-        @include block-grid($i,$block-grid-default-spacing,false);
-      }
-    }
-    [class*="small-block-grid-"] > li { clear: none !important; }
-  }
+  // @media #{$small} {
+  //   @for $i from 1 through $block-grid-elements {
+  //     .large-block-grid-#{($i)} {
+  //       @include block-grid($i,$block-grid-default-spacing,false);
+  //     }
+  //   }
+  //   [class*="small-block-grid-"] > li { clear: none !important; }
+  // }
 }
